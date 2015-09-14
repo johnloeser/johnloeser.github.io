@@ -22,7 +22,7 @@ I try to do math sometimes. The first time I learned to program was when I made 
 
 I'm writing all of this in markdown. Seems magical. [Jekyll][jekyll] is nifty.
 
-If you click the CV link, you'll notice something funny about my CV. ![CV]({{ site.baseurl }}/CV.jpg) So it looks like my maturity hasn't improved much either. I could definitely kick my middle school self's ass though, I'll be able to hold that over him for a while.
+If you click the CV link, you'll notice something funny about my CV. ![CV]({{ site.baseurl }}CV.jpg) So it looks like my maturity hasn't improved much either. I could definitely kick my middle school self's ass though, I'll be able to hold that over him for a while.
 
 [^1]: I really don't like using an apostrophe when I'm constructing a plural of something like "I'm blogging". What if "I'm blogging" is in possession of something? Maybe multiple "I'm blogging"s, as in ""I'm blogging"'s "I'm blogging"s". Am I doing that right?
 
