@@ -2,26 +2,33 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Sanchez:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Quattrocento:300,400,500,700");
 
 
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: "Sanchez";
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
+$border-spacing:   1px;
 
 $text-color:       #111;
-$background-color: #fdfdfd;
-$htext-color:	   $background-color;
 $hbg-color:		   #000080;
 $brand-color:      #2a7ae2;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
+
+/* $background-color: #fdfdfd; */
+$background-color: $grey-color-light;
+/* $htext-color:	   $background-color; */
+$htext-color:	   #fdfdfd;
 
 // Width of the content area
 $content-width:    800px;

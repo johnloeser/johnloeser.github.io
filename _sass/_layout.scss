@@ -20,11 +20,16 @@
     float: left;
     color: $htext-color;
 
-    &,
-    &:visited {
-        /* color: $grey-color-dark; */
-        color: $htext-color;
+    &:hover {
+        color: darken($htext-color, 30%);
+        text-decoration: none;
     }
+
+    /* &,
+    &:visited {
+        color: $grey-color-dark;
+        color: $htext-color;
+    } */
 }
 
 .site-nav {
@@ -36,9 +41,14 @@
     }
 
     .page-link {
-        /* font-size: 20px; */
+        font-size: 16px;
         color: $htext-color;
         line-height: $base-line-height;
+
+        &:hover {
+            color: darken($htext-color, 30%);
+            text-decoration: underline;
+        }
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
@@ -180,18 +190,28 @@
     list-style: none;
 
     > li {
-        margin-bottom: $spacing-unit;
+        padding-bottom: 0.5*$spacing-unit;
+        border-bottom-style: solid;
+        &:not(:first-child) {
+            padding-top: 0.5*$spacing-unit;
+        }
+        border-width: 3*$border-spacing;
+        border-color: $grey-color;
     }
 }
 
 .post-meta {
-    font-size: $small-font-size;
-    color: $grey-color;
+    /* font-size: $small-font-size; */
+    color: $text-color;
 }
 
 .post-link {
     display: block;
-    font-size: 24px;
+    color: $hbg-color;
+    &:hover {
+        color: darken($hbg-color, 30%);
+        text-decoration: underline;
+    }
 }
 
 
@@ -200,16 +220,17 @@
  * Posts
  */
 .post-header {
-    margin-bottom: $spacing-unit;
+    margin-bottom: 0.5*$spacing-unit;
 }
 
 .post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1;
+    font-size: 32px;
+    /* letter-spacing: -1px;
+    line-height: 1; */
+    margin-bottom: 0;
 
     @include media-query($on-laptop) {
-        font-size: 36px;
+        font-size: 32px;
     }
 }
 
@@ -217,7 +238,7 @@
     margin-bottom: $spacing-unit;
 
     h2 {
-        font-size: 32px;
+        font-size: 28px;
 
         @include media-query($on-laptop) {
             font-size: 28px;
@@ -225,7 +246,7 @@
     }
 
     h3 {
-        font-size: 26px;
+        font-size: 24px;
 
         @include media-query($on-laptop) {
             font-size: 22px;

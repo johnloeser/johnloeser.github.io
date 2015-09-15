@@ -13,11 +13,16 @@ permalink: /blog/
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <header class="post-header">
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <h1 class="post-title">
+            <a class="post-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+          </h1>
+          <span class="post-meta">{% if post.author %} - {{ post.author }}{% endif %}{% if post.meta %}{{ post.meta }}{% endif %}</span>
+        </header>
 
-        <h2>
-          <a class="post-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-        </h2>
+        <span class="post-meta"><p>{{ post.excerpt | strip_html }}...</p></span>
+        <span class="post-meta">{{ post.categories }}</span>
       </li>
     {% endfor %}
   </ul>
