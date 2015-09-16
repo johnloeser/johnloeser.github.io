@@ -3,13 +3,15 @@
 ---
 @charset "utf-8";
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,700");
-@import url("https://fonts.googleapis.com/css?family=Sanchez:300,400,500,700");
+/* @import url("https://fonts.googleapis.com/css?family=Sanchez:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700"); */
 @import url("https://fonts.googleapis.com/css?family=Quattrocento:300,400,500,700");
 
 
 
 // Our variables
-$base-font-family: "Sanchez";
+$base-font-family: "Quattrocento";
+$head-font-family: "Raleway";
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;

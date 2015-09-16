@@ -35,6 +35,10 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
+h1 {
+    font-family: $head-font-family;
+}
+
 
 
 /**
@@ -98,8 +102,16 @@ a {
 
     &:hover {
         color: darken($brand-color, 30%);
-        text-decoration: none;
+        text-decoration: underline;
     }
+}
+
+/**
+ * footnotes
+ */
+.footnote {
+    padding-top: 85px;
+    margin-top: -85px;
 }
 
 
