@@ -4,11 +4,13 @@
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
-    min-height: 80px;
+    height: 80px;
+    width: 100%;
     background-color: $hbg-color;
 
     // Positioning context for the mobile navigation icon
-    position: relative;
+    /* position: relative; */
+    position: fixed;
 }
 
 .site-title {
@@ -58,7 +60,7 @@
 
     @include media-query($on-palm) {
         position: absolute;
-        top: 9px;
+        top: 20px;
         right: 30px;
         background-color: $hbg-color;
         border: 1px solid $grey-color-light;
@@ -178,7 +180,7 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding: 80+$spacing-unit 0;
 }
 
 .page-heading {
