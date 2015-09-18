@@ -165,27 +165,25 @@ pre {
 /**
  * Wrapper
  */
+.wrapper-wrapper {
+    width: 100%;
+    padding-left: $sidebar-width;
+    @include media-query($on-laptop) {
+        padding-left: 0;
+    }
+}
 .wrapper {
-    max-width: -webkit-calc(#{$content-width} - #{$sidebar-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - #{$sidebar-width} - (#{$spacing-unit} * 2));
+    max-width: $content-width - $sidebar-width - $spacing-unit;
+    padding-left: $spacing-unit;
     margin-right: auto;
     margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
-    float: right;
+    float: left;
     @extend %clearfix;
 
     @include media-query($on-laptop) {
-        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
-    }
-    @include media-query($on-palm) {
-        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
+        max-width: $content-width - $sidebar-width - $spacing-unit;
+        padding-left: 0;
+        float: none;
     }
 }
 
@@ -202,10 +200,7 @@ pre {
     @extend %clearfix;
 
     @include media-query($on-laptop) {
-        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
+        max-width: $content-width - $sidebar-width - $spacing-unit;
     }
 }
 
