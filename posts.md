@@ -5,7 +5,7 @@ permalink: /posts/
 ---
 
 {% for tag in site.categories %} 
-  <h4 class="category-header" id="{{ tag[0] }}">{{ tag[0] | capitalize }}</h4>
+  <h4 class="category-header" id="{{ tag[0] }}">{{ tag[0] }}</h4>
   <ul class="cat-links">
     {% assign pages_list = tag[1] %}  
     {% for post in pages_list %}
