@@ -1,5 +1,17 @@
 <div class="sidebar">
   <div class="container">
-    What a lovely paragraph to test out whether or not the sidebar is working!
+    <ul class="cat-links">
+	  {% assign tags_list = site.categories %}  
+  		{% if tags_list.first[0] == null %}
+    	  {% for tag in tags_list %} 
+      		<li><a href="{{ site.baseurl }}/posts/#{{ tag }}">{{ tag | capitalize }}</a> [{{ site.tags[tag].size }}]</li>
+    	  {% endfor %}
+  		{% else %}
+    	  {% for tag in tags_list %} 
+      		<li><a href="{{ site.baseurl }}/posts/#{{ tag[0] }}">{{ tag[0] | capitalize }}</a> [{{ tag[1].size }}]</li>
+    	  {% endfor %}
+  		{% endif %}
+	  {% assign tags_list = nil %}
+	</ul>
   </div>
 </div>

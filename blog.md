@@ -22,7 +22,9 @@ permalink: /blog/
         </header>
 
         <span class="post-meta"><p>{{ post.excerpt | strip_html }}...</p></span>
-        <span class="post-meta">{{ post.categories }}</span>
+        <span class="post-meta">{% for category in post.categories %}
+          <a href="{{ site.baseurl }}/posts/#{{ category }}">{{ category }}</a>
+        {% endfor %}</span>
       </li>
     {% endfor %}
   </ul>

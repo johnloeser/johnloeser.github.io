@@ -78,6 +78,22 @@ li {
     }
 }
 
+.cat-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0.5*$spacing-unit;
+}
+
+
+/**
+ * category-header
+ */
+.category-header {
+    padding-top: 85px;
+    margin-top: -85px;
+}
+
 
 
 /**

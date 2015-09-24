@@ -2,7 +2,7 @@
 
   <div class="hwrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}">{{ site.title }}</a>
+    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -37,6 +37,12 @@
         {% endif %}
 
         <a class="page-link" href="{{ site.baseurl }}/CV.jpg">CV</a>
+
+        {% if page.title == "Posts" %}
+          <a class="page-link" href="{{ site.baseurl }}/posts"><strong>Posts</strong></a>
+        {% else %}
+          <a class="page-link" href="{{ site.baseurl }}/posts">Posts</a>
+        {% endif %}
 
         {% if page.title == "Research" %}
           <a class="page-link" href="{{ site.baseurl }}/research"><strong>Research</strong></a>

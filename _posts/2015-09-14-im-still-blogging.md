@@ -3,7 +3,7 @@ layout: post
 title:  "I'm still blogging?"
 date:   2015-09-14 14:01:00
 author: John Loeser?
-categories: meta
+categories: meta 3meta
 ---
 Sometimes Brick asks questions when he should be making a statement. Like "I love lamp?".
 
