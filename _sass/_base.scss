@@ -188,6 +188,16 @@ pre {
         padding-left: 0;
     }
 }
+.nosidebar-wrapper {
+    max-width: $content-width;
+    margin-right: auto;
+    margin-left: auto;
+    @extend %clearfix;
+
+    @include media-query($on-laptop) {
+        max-width: $content-width - $sidebar-width - $spacing-unit;
+    }
+}
 .wrapper {
     max-width: $content-width - $sidebar-width - $spacing-unit;
     padding-left: $spacing-unit;
