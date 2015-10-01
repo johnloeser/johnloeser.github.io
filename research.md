@@ -4,10 +4,10 @@ title: Research
 permalink: /research/
 ---
 
-#### Working Papers
+### Working Papers
 
 Let's pretend...
 
-#### Publications
+### Publications
 
 Ha!
