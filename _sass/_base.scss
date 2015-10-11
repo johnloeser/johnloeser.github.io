@@ -110,14 +110,16 @@ h1, h2, h3, h4, h5, h6 {
  */
 a {
     color: $brand-color;
-    text-decoration: none;
+    // text-decoration: none;
+    text-decoration: underline;
 
     /* &:visited {
         color: darken($brand-color, 15%);
     } */
 
     &:hover {
-        color: darken($brand-color, 30%);
+        // color: darken($brand-color, 30%);
+        color: $text-color;
         text-decoration: underline;
     }
 }
@@ -158,7 +160,8 @@ code {
     font-size: 15px;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
-    background-color: #eef;
+    /* background-color: #eef; */
+    background-color: #fff;
 }
 
 code {

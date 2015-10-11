@@ -23,6 +23,7 @@
     margin-bottom: 0;
     float: left;
     color: $htext-color;
+    text-decoration: none;
 
     &:hover {
         color: darken($htext-color, 30%);
@@ -48,10 +49,11 @@
         font-size: 16px;
         color: $htext-color;
         line-height: $base-line-height;
+        text-decoration: none;
 
         &:hover {
             color: darken($htext-color, 30%);
-            //text-decoration: underline;
+            text-decoration: underline;
         }
 
         // Gaps between nav items, but not on the first one
@@ -240,9 +242,9 @@
 
 .post-link {
     display: block;
-    color: $hbg-color;
+    // color: $hbg-color;
     &:hover {
-        color: darken($hbg-color, 30%);
+        // color: darken($hbg-color, 30%);
         text-decoration: underline;
     }
 }

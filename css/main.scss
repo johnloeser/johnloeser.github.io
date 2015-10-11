@@ -10,8 +10,10 @@
 
 
 // Our variables
-$base-font-family: "Quattrocento";
-$head-font-family: "Raleway";
+// $base-font-family: "Quattrocento";
+$base-font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+// $head-font-family: "Raleway";
+$head-font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -19,9 +21,12 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 $border-spacing:   1px;
 
-$text-color:       #111;
-$hbg-color:		   #000080;
-$brand-color:      #2a7ae2;
+// $text-color:       #111;
+$text-color:       #000000;
+// $hbg-color:		   #000080;
+$hbg-color:		   #000000;
+// $brand-color:      #2a7ae2;
+$brand-color:      #888888;
 
 $white-color:      #fdfdfd;
 $grey-color:       #828282;
