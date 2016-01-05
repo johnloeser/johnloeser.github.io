@@ -3,7 +3,7 @@ layout: post
 title:  "Birthday problem redux"
 date:   2016-01-03 16:24:00
 author: John Loeser
-categories: math
+categories: math math2
 tags: probability R
 ---
 
@@ -84,7 +84,7 @@ g <- ggplot(sims.g, aes(x = x)) + stat_ecdf() + mytheme +
 myplot(g, filename = "bpr_ecdf.png")
 {% endhighlight %}
 
-![Estimated CDF for number of friends needed to fill calendar]({{ site.url }}assets/bpr_ecdf.png)
+![Estimated CDF for number of friends needed to fill calendar]({{ site.baseurl }}/assets/bpr_ecdf.png)
 
 This shows us that we'll only have about a 25% chance of having a filled calendar with 2000 friends, and with 1500 friends our chances of having the calendar filled are close to 0. Check it out on Facebook if you're curious!
 
@@ -132,7 +132,7 @@ g <- ggplot(sims.bs, aes(x = x, y = ..density..)) +
 myplot(g, filename = "bpr_meanbs.png")
 {% endhighlight %}
 
-![Bootstrapped distribution of simulated mean]({{ site.url }}assets/bpr_meanbs.png)
+![Bootstrapped distribution of simulated mean]({{ site.baseurl }}/assets/bpr_meanbs.png)
 
 Looks like there's no reason to think we screwed up our math yet, since our calculated mean isn't in the tails of the simulated distribution. Lets go a step further - instead of settling with calculating the mean of $$X_{n,1:k}$$, the number of draws we needed to find $$k$$ unique balls from an urn with $$n$$ balls, lets try to calculate its full distribution. We've now seen that we can write $$X_{n,1:k}$$ as the sum $$\sum_{i=1}^{k} X_{n,i}$$, where $$X_{n,i}$$ is a geometric random variable. In general, I'm not sure if it's possible to write down the distribution of the sum of geometric random variables in a clean way.[^5] This is a special case though, where the probabilities of a success follow a very nice pattern (1, $$\frac{n-1}{n}$$, $$\frac{n-2}{n}$$, ...). So maybe we can do it!
 
@@ -270,7 +270,7 @@ g <- ggplot(data = sims.g2) +
 myplot(g, filename = "bpr_f.png")
 {% endhighlight %}
 
-![Simulated and calculated densities for f]({{ site.url }}assets/bpr_f.png)
+![Simulated and calculated densities for f]({{ site.baseurl }}/assets/bpr_f.png)
 
 Looks like we got the math right! We're now almost equipped to answer our original question.
 
@@ -434,9 +434,9 @@ g <- ggplot(data = sims2.g) +
 myplot(g, filename = "bpr_g.png")
 {% endhighlight %}
 
-![Simulated and calculated densities for g]({{ site.url }}assets/bpr_g.png)
+![Simulated and calculated densities for g]({{ site.baseurl }}/assets/bpr_g.png)
 
-It doesn't look like the math was wrong - our simulations and our calculated density line up perfectly.[^6] Everything seems OK!
+It doesn't look like the math was wrong - our simulations and our calculated density line up almost perfectly.[^6] Everything seems OK!
 
 I was a little surprised by how close we ended up to the actual distribution. In practice, there is variation in how likely some birthdays are relative to others. Not only that, who our friends are can affect where birthdays end up being clustered. My friends who were college athletes are more likely to have January and February birthdays, and my Rwandan friends are more likely to have January 1 as a birthday. We can actually test if my friends' birthdays are more clustered than would be expected under a uniform distribution. One easy way to do this is to calculate the number of my friends who have each birthday, and then sum the squares of those numbers. We can then simulate this by generating uniformly distributed random variables across all 365 birthdays, calculate the same statistic, and compare the calculated statistic to the simulated distribution.
 
@@ -470,7 +470,7 @@ g <- ggplot(data = sims3.g) +
 myplot(g, filename = "bpr_stat.png")
 {% endhighlight %}
 
-![Simulated density for clustered statistic]({{ site.url }}assets/bpr_stat.png)
+![Simulated density for clustered statistic]({{ site.baseurl }}/assets/bpr_stat.png)
 
 So it looks like my friends' birthdays might be a bit more clustered than we'd typically expect for a uniformly distributed random variable, but not too much so.[^7] It actually looks like our approximation, assuming birthdays are random, does a pretty good job!
 

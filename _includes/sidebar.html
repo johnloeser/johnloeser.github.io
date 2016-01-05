@@ -1,17 +1,32 @@
 <div class="sidebar">
   <div class="container">
+    <h4>Projects</h4>
     <ul class="cat-links">
 	  {% assign tags_list = site.categories %}  
   		{% if tags_list.first[0] == null %}
     	  {% for tag in tags_list %} 
-      		<li><a href="{{ site.baseurl }}/posts/#{{ tag }}">{{ tag }}</a> [{{ site.tags[tag].size }}]</li>
+      		<li><a href="{{ site.baseurl }}/posts/#p_{{ tag }}">{{ tag }}</a> [{{ site.tags[tag].size }}]</li>
     	  {% endfor %}
   		{% else %}
     	  {% for tag in tags_list %} 
-      		<li><a href="{{ site.baseurl }}/posts/#{{ tag[0] }}">{{ tag[0] }}</a> [{{ tag[1].size }}]</li>
+      		<li><a href="{{ site.baseurl }}/posts/#p_{{ tag[0] }}">{{ tag[0] }}</a> [{{ tag[1].size }}]</li>
     	  {% endfor %}
   		{% endif %}
 	  {% assign tags_list = nil %}
-	</ul>
+	  </ul>
+    <h4>Tags</h4>
+    <ul class="cat-links">
+    {% assign tags_list = site.tags %}  
+      {% if tags_list.first[0] == null %}
+        {% for tag in tags_list %} 
+          <li><a href="{{ site.baseurl }}/posts/#t_{{ tag }}">{{ tag }}</a> [{{ site.tags[tag].size }}]</li>
+        {% endfor %}
+      {% else %}
+        {% for tag in tags_list %} 
+          <li><a href="{{ site.baseurl }}/posts/#t_{{ tag[0] }}">{{ tag[0] }}</a> [{{ tag[1].size }}]</li>
+        {% endfor %}
+      {% endif %}
+    {% assign tags_list = nil %}
+    </ul>
   </div>
 </div>
