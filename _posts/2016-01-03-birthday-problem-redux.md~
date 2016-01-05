@@ -282,9 +282,9 @@ $$ F_{n,1:k}(x) = \alpha_{n,k} \sum_{i=1}^{k-1} \beta_{k,i} \frac{1 - \left( \fr
 
 So, our problem reduces to finding the smallest $$x$$ that satisfies $$ F_{n,1:k}(x) \geq 0.5 $$. For the original birthday problem, we solved this by trying every possible value of $$x$$, and finding the smallest one that satisfied this inequality. This will take too long for our new birthday problem, so we need to be more careful about which values of $$x$$ we'll try. For this we'll use Euler's method. Imagine we want to solve $$ h(x) = 0 $$ for some function $$ h $$. Let's take two guesses, $$ x_{0} $$ and $$ x_{1} $$. We can then evaluate $$ h $$ at each of those guesses, and then approximate $$ h $$ using a linear function.
 
-$$ h(x) \approx \frac{h(x_{1}) - h(x_{0})}{x_{1} - x_{0}} + h(x_{0}) $$
+$$ h(x) \approx \frac{h(x_{1}) - h(x_{0})}{x_{1} - x_{0}} x + h(x_{0}) $$
 
-We can then solve $$ h(x) = 0 $$ using our approximation. Which gives us a new guess $$ x_{2} $$.
+We can then solve $$ h(x) = 0 $$ using our approximation. The solution to this gives us a new guess $$ x_{2} $$.
 
 $$ x_{2} = x_{0} - y_{0} \frac{x_{1} - x_{0}}{y_{1} - y_{0}} $$
 
