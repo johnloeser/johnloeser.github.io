@@ -1,7 +1,7 @@
 ---
 layout: nosidebar
-title: Research
-permalink: /research/
+title: Teaching
+permalink: /teaching/
 ---
 
 ### EEP 152
