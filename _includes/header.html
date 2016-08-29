@@ -50,6 +50,12 @@
           <a class="page-link" href="{{ site.baseurl }}/research">Research</a>
         {% endif %}
 
+	{% if page.title == "Teaching" %}
+          <a class="page-link" href="{{ site.baseurl }}/teaching"><strong>Teaching</strong></a>
+        {% else %}
+          <a class="page-link" href="{{ site.baseurl }}/teaching">Teaching</a>
+        {% endif %}
+
       </div>
     </nav>
 
