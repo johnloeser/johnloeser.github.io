@@ -6,4 +6,4 @@ permalink: /teaching/
 
 ### EEP 152
 
-section materials [https://johnloeser.github.io/teaching/eep152](https://johnloeser.github.io/teaching/eep152)
+section materials [https://github.com/johnloeser/eep152](https://github.com/johnloeser/eep152)
