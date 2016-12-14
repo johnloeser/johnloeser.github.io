@@ -21,13 +21,8 @@
           {% endif %}
         {% endfor %}
         -->
-
-        {% if page.title == "About" %}
-          <a class="page-link" href="{{ site.baseurl }}/about"><strong>About</strong></a>
-        {% else %}
-          <a class="page-link" href="{{ site.baseurl }}/about">About</a>
-        {% endif %}
-
+	
+	<!--
         {% if page.title == "Blog" %}
           <a class="page-link" href="{{ site.baseurl }}/blog"><strong>Blog</strong></a>
         {% elsif page.tags == "blog" %}
@@ -35,14 +30,17 @@
         {% else %}
           <a class="page-link" href="{{ site.baseurl }}/blog">Blog</a>
         {% endif %}
+	-->
 
         <a class="page-link" href="{{ site.baseurl }}/CV.jpg">CV</a>
 
+	<!--
         {% if page.title == "Posts" %}
           <a class="page-link" href="{{ site.baseurl }}/posts"><strong>Posts</strong></a>
         {% else %}
           <a class="page-link" href="{{ site.baseurl }}/posts">Posts</a>
         {% endif %}
+	-->
 
         {% if page.title == "Research" %}
           <a class="page-link" href="{{ site.baseurl }}/research"><strong>Research</strong></a>

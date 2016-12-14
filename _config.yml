@@ -1,11 +1,14 @@
 # Site settings
 title: john loeser
 email: john [dot] a [dot] loeser [at] berkeley [dot] edu
-description: Blog, research, and teaching.
-permalink: :categories/:title.html
-# permalink: blog/:title.html
-baseurl: "/blog" # the subpath of your site, e.g. /blog/
-url: "https://johnloeser.github.io/blog/" # the base hostname & protocol for your site
+# description: Blog, research, and teaching.
+description: Professional site.
+# permalink: :categories/:title.html
+permalink: blog/:categories/:title.html
+# baseurl: "/blog" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
+# url: "https://johnloeser.github.io/blog/" # the base hostname & protocol for your site
+url: "https://johnloeser.github.io/" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
