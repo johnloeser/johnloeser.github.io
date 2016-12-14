@@ -220,17 +220,24 @@ pre {
 /**
  * Header Wrapper
  */
-.hwrapper {
-    max-width: $content-width;
+.hwrapperwrapper{
+    max-width: $content-width + $spacing-unit;
     margin-right: auto;
     margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
-    @extend %clearfix;
-
     @include media-query($on-laptop) {
-        max-width: $content-width - $sidebar-width - $spacing-unit;
+        // max-width: $content-width - $sidebar-width - $spacing-unit;
+        max-width: $content-width - $sidebar-width;
     }
+    border-bottom: 2px solid $grey-color-dark;
+    overflow: hidden;
+}
+
+.hwrapper {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0.5*$spacing-unit;
+    padding-left: 0.5*$spacing-unit;
+    @extend %clearfix;
 }
 
 

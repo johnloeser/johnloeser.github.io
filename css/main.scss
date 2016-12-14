@@ -30,7 +30,7 @@ $border-spacing:   1px;
 // $text-color:       #111;
 $text-color:       #000000;
 // $hbg-color:		   #000080;
-$hbg-color:		   #000000;
+$hbg-color:		   #ffffff;
 // $brand-color:      #2a7ae2;
 $brand-color:      #888888;
 
@@ -42,13 +42,13 @@ $grey-color-dark:  darken($grey-color, 25%);
 /* $background-color: #fdfdfd; */
 $background-color: $white-color;
 /* $htext-color:	   $background-color; */
-$htext-color:	   $white-color;
+$htext-color:	   #000000;
 
 // Width of the content area
 $content-width:    900px;
 $sidebar-width:	   200px;
 
-$on-palm:          600px;
+$on-palm:          650px;
 // $on-laptop:        800px;
 $on-laptop:        $content-width + 2 * $spacing-unit;
 

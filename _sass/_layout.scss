@@ -3,8 +3,8 @@
  */
 .site-header {
     z-index: 2;
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
+    // border-top: 5px solid $grey-color-dark;
+    // border-bottom: 1px solid $grey-color-light;
     height: 80px;
     width: 100%;
     font-family: $head-font-family;
@@ -58,16 +58,17 @@
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
-            margin-left: 20px;
+            margin-left: 10px;
         }
     }
 
     @include media-query($on-palm) {
         position: absolute;
         top: 20px;
-        right: 30px;
+        right: 0.5*$spacing-unit;
         background-color: $hbg-color;
-        border: 1px solid $grey-color-light;
+        // border: 1px solid $grey-color-light;
+        border: 1px solid $htext-color;
         border-radius: 5px;
         text-align: right;
 
