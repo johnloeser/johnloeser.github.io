@@ -4,6 +4,6 @@ title: Teaching
 permalink: /teaching/
 ---
 
-### EEP 152
+[https://github.com/johnloeser/ARE210](https://github.com/johnloeser/ARE210) section notes, 1st year graduate econometrics
 
-section materials [https://github.com/johnloeser/eep152](https://github.com/johnloeser/eep152)
+[https://github.com/johnloeser/EEP152](https://github.com/johnloeser/EEP152) section notes, undergraduate development economics, second course in sequence
