@@ -124,6 +124,15 @@ a {
     }
 }
 
+ar {
+    color: $link-color;
+    text-decoration: underline;
+    &:hover {
+        color: $text-color;
+        text-decoration: underline;
+    }
+}
+
 /**
  * footnotes
  */
