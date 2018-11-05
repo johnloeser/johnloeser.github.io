@@ -7,10 +7,10 @@ permalink: /research/
 ## Working papers
 
 <hr/>
-<details title="mwe">
-<summary><strong>JMP</strong> The treatment effect elasticity of demand: Estimating the welfare losses from groundwater depletion in India<br/>
-(2018 Sep) <ar>show abstract</ar><hr/></summary>
-<br/>I estimate the elasticity of demand for irrigation to its effect on crop yields in rural India. Conventional approaches to estimating this elasticity fail when agents select into adopting irrigation on heterogeneous yield effects and costs. I develop a novel approach to correct for selection that works with aggregated data on yields and adoption. I use climate and soil characteristics as a yield shifter, and I use hydrogeology as an instrument for irrigation to correct for selection. I estimate a 1% increase in the effect of irrigation on yields causes a 0.7% increase in adoption of irrigation. I then use this estimated elasticity to conduct welfare counterfactuals. Groundwater depletion from 2000-2010 in northwestern India permanently reduced economic surplus by 1.2% of gross agricultural revenue.
+<details title="mse">
+<summary><strong>JMP</strong> <a href="{{ site.baseurl }}/assets/jmp.pdf">The treatment effect elasticity of demand: Estimating the welfare losses from groundwater depletion in India</a><br/>
+(2018 Sep) <ar>show abstract</ar>&nbsp;<!--<a href="{{ site.baseurl }}/assets/jmp.pdf">pdf</a>--><hr/></summary>
+<br/>I estimate an elasticity of demand for irrigation to its gross returns in rural India. Many approaches to estimating this elasticity fail when agents select into adopting irrigation on heterogeneous gross returns and costs. I develop a novel approach to correct for selection that only requires aggregated data on gross revenue and adoption of irrigation. I use climate and soil characteristics as an instrument for gross returns to irrigation, and hydrogeology as an instrument for irrigation to correct for selection. I estimate a 1% increase in the effect of irrigation on yields causes a 0.7% increase in adoption of irrigation. I use this elasticity to infer changes in profits from changes in adoption of irrigation caused by shocks to its profitability, and to conduct counterfactuals. First, groundwater depletion from 2000-2010 in northwestern India permanently reduced economic surplus by 1.2% of gross agricultural revenue. Second, I evaluate a policy that optimally reduces relative subsidies for groundwater irrigation in districts with large negative pumping externalities, while holding total subsidies fixed. Under the policy, depletion caused by subsidies decreases by 16%, but farmer surplus increases by only 0.07% of gross agricultural revenue.
 </details>
 <hr style="visibility:hidden;height:12pt" />
 <hr/>
