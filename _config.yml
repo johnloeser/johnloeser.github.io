@@ -2,7 +2,7 @@
 title: john loeser
 email: john.a.loeser@berkeley.edu
 # description: Blog, research, and teaching.
-description: johnloeser.github.io
+description: John Loeser's economic job market website
 # permalink: :categories/:title.html
 permalink: blog/:categories/:title.html
 # baseurl: "/blog" # the subpath of your site, e.g. /blog/
@@ -16,5 +16,5 @@ url: "https://johnloeser.github.io/" # the base hostname & protocol for your sit
 markdown: kramdown
 
 # SEO optimization
-plugins:
+plugins_dir:
   - jekyll-seo-tag
