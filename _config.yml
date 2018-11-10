@@ -17,4 +17,4 @@ markdown: kramdown
 
 # SEO optimization
 plugins_dir:
-  - jekyll-seo-tag
+- jekyll-seo-tag
