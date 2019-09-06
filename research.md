@@ -5,7 +5,13 @@ permalink: /research/
 ---
 
 ## Working papers
-
+<hr/>
+<details title="mse">
+<summary><a href="{{ site.baseurl }}/assets/jklm.pdf">Factor Market Failures and the Adoption of Irrigation in Rwanda (with Maria Jones, Florence Kondylis, and Jeremy Magruder)</a><br/>
+(2019 Sep) <ar>show abstract</ar>&nbsp;<a href="{{ site.baseurl }}/assets/jklm.pdf">pdf</a><hr/></summary>
+<br/>We examine constraints to adoption of new technologies in the context of hillside irrigation schemes in Rwanda. We leverage a plot-level spatial regression discontinuity design to produce 3 key results. First, irrigation enables dry season horticultural production, which boosts on farm cash profits by 70%. Second, adoption is constrained: access to irrigation causes farmers to substitute labor and inputs away from their other plots. Eliminating this substitution would increase adoption by at least 21%. Third, this substitution is largest for smaller households and wealthier households. This result can only be explained by labor market failures in a standard agricultural household model.
+</details>
+<hr style="visibility:hidden;height:12pt" />
 <hr/>
 <details title="mse">
 <summary><strong>JMP</strong> <a href="{{ site.baseurl }}/assets/jmp.pdf">The treatment effect elasticity of demand: Estimating the welfare losses from groundwater depletion in India</a><br/>
@@ -20,8 +26,7 @@ permalink: /research/
 <br/>The welfare gains from a novel intertemporal substitution technology, such as a new credit or insurance product, are commonly measured using either its effect on a welfare proxy or by estimating a structural model. Using a welfare proxy is often undesirable due to noise in measurement and the challenge of converting estimated effects into a money metric, while structural approaches sometimes require strong functional form assumptions and can be skewed by unexpected moments of the data. In contrast, despite some drawbacks, Marshallian consumer surplus is frequently used as a metric for the welfare gains from access to a new product in a static setting, and with sufficient variation in prices may be relatively easy to precisely estimate. I show that under a broad class of models of dynamic optimization which nest Deaton (1991), Marshallian consumer surplus is a reasonable welfare metric for access to an intertemporal substitution technology. I demonstrate how to calculate it, and apply the approach to three experiments which randomly varied either interest rates or prices: I compare the welfare gains from grants of index insurance in Ghana to their actuarially fair value, I calculate the welfare gains to households from access to a leading MFI in Mexico, and I lower bound the foregone household welfare due to inattention to the Savers' Credit among households in the United States. In all cases, the calculation is straightforward, transparent, and can be represented graphically as a ``welfare triangle''.
 </details><br/>
 
-## Work in progress
-<hr/><summary>Irrigation in Rwanda: Farmer responses to massive increases in the production possibilities frontier (with Maria Jones, Florence Kondylis, and Jeremy Magruder) <hr/></summary>
+<!--## Work in progress-->
 
 <script>
 function getQueryVariable(variable)
