@@ -6,19 +6,21 @@ permalink: /research/
 
 ## Working papers
 <hr/>
-<details title="mse">
-<summary><a href="{{ site.baseurl }}/assets/jklm.pdf">Factor Market Failures and the Adoption of Irrigation in Rwanda (with Maria Jones, Florence Kondylis, and Jeremy Magruder)</a><br/>
-(2019 Sep) <ar>show abstract</ar>&nbsp;<a href="{{ site.baseurl }}/assets/jklm.pdf">pdf</a><hr/></summary>
+<details title="jklm">
+<summary><a title="jklm.pdf" href="{{ site.baseurl }}/assets/jklm.pdf">Factor Market Failures and the Adoption of Irrigation in Rwanda</a> (w/ <a title="Maria Jones" href="https://www.worldbank.org/en/about/people/m/maria-ruth-jones">Maria Jones</a>, <a title="Florence Kondylis" href="https://sites.google.com/site/decrgkondylis/">Florence Kondylis</a>, and <a title="Jeremy Magruder" href="https://are.berkeley.edu/~jmagruder/">Jeremy Magruder</a>)<br/>
+(2019 Sep) <ar>show abstract</ar>&nbsp;<a title="jklm.pdf" href="{{ site.baseurl }}/assets/jklm.pdf">pdf</a><hr/></summary>
 <br/>We examine constraints to adoption of new technologies in the context of hillside irrigation schemes in Rwanda. We leverage a plot-level spatial regression discontinuity design to produce 3 key results. First, irrigation enables dry season horticultural production, which boosts on farm cash profits by 70%. Second, adoption is constrained: access to irrigation causes farmers to substitute labor and inputs away from their other plots. Eliminating this substitution would increase adoption by at least 21%. Third, this substitution is largest for smaller households and wealthier households. This result can only be explained by labor market failures in a standard agricultural household model.
 </details>
 <hr style="visibility:hidden;height:12pt" />
 <hr/>
 <details title="mse">
-<summary><strong>JMP</strong> <a href="{{ site.baseurl }}/assets/jmp.pdf">The treatment effect elasticity of demand: Estimating the welfare losses from groundwater depletion in India</a><br/>
-(2018 Nov) <ar>show abstract</ar>&nbsp;<a href="{{ site.baseurl }}/assets/jmp.pdf">pdf</a><hr/></summary>
+<summary><strong>JMP</strong> <a title="jmp.pdf" href="{{ site.baseurl }}/assets/jmp.pdf">The treatment effect elasticity of demand: Estimating the welfare losses from groundwater depletion in India</a><br/>
+(2018 Nov) <ar>show abstract</ar>&nbsp;<a title="jmp.pdf" href="{{ site.baseurl }}/assets/jmp.pdf">pdf</a><hr/></summary>
 <br/>I estimate an elasticity of irrigation adoption to its gross returns in rural India. Many approaches to estimating this elasticity fail when agents select into adopting irrigation on heterogeneous gross returns and costs. I develop a novel approach to correct for selection using two instrumental variable estimators that can be implemented with aggregate data on gross revenue and adoption of irrigation. I use climate and soil characteristics as an instrument for gross returns to irrigation, and hydrogeology as an instrument for irrigation to correct for selection. I estimate that a 1% increase in the gross returns to irrigation causes a 0.7% increase in adoption of irrigation. I use this elasticity to infer changes in profits from changes in adoption of irrigation caused by shocks to its profitability, and to conduct counterfactuals. First, groundwater depletion from 2000-2010 in northwestern India permanently reduced economic surplus by 1.2% of gross agricultural revenue. Second, I evaluate a policy that optimally reduces relative subsidies for groundwater irrigation in districts with large negative pumping externalities, while holding total subsidies fixed. Under the policy, depletion caused by subsidies decreases by 16%, but farmer surplus increases by only 0.07% of gross agricultural revenue.
 </details>
 <hr style="visibility:hidden;height:12pt" />
+
+## Work in progress
 <hr/>
 <details title="cs">
 <summary>Marshallian consumer surplus from intertemporal substitution: Applications to savings, credit, and index insurance<br/>
