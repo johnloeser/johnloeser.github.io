@@ -1,6 +1,6 @@
 ---
 layout: nosidebar
-title: Teaching
+title: teaching
 permalink: /teaching/
 ---
 

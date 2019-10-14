@@ -39,17 +39,23 @@
           <a class="page-link" href="{{ site.baseurl }}/posts">Posts</a>
         {% endif %}
 	-->
-
-	{% if page.title == "Research" %}
-          <a class="page-link" href="{{ site.baseurl }}/research"><strong>Research</strong></a>
+	
+	{% if page.title == "blogging" %}
+          <a class="page-link" href="{{ site.baseurl }}/blogging"><strong>blogging</strong></a>
         {% else %}
-          <a class="page-link" href="{{ site.baseurl }}/research">Research</a>
+          <a class="page-link" href="{{ site.baseurl }}/blogging">blogging</a>
         {% endif %}
 
-	{% if page.title == "Teaching" %}
-          <a class="page-link" href="{{ site.baseurl }}/teaching"><strong>Teaching</strong></a>
+	{% if page.title == "research" %}
+          <a class="page-link" href="{{ site.baseurl }}/research"><strong>research</strong></a>
         {% else %}
-          <a class="page-link" href="{{ site.baseurl }}/teaching">Teaching</a>
+          <a class="page-link" href="{{ site.baseurl }}/research">research</a>
+        {% endif %}
+
+	{% if page.title == "teaching" %}
+          <a class="page-link" href="{{ site.baseurl }}/teaching"><strong>teaching</strong></a>
+        {% else %}
+          <a class="page-link" href="{{ site.baseurl }}/teaching">teaching</a>
         {% endif %}
 	
 	<!--
@@ -63,7 +69,7 @@
 	<!--
         <a class="page-link" href="{{ site.baseurl }}/assets/cv_jl.pdf">CV</a>
 	-->
-        <a class="page-link" href="{{ site.baseurl }}/assets/cv_jl.pdf" target="_blank">CV</a>
+        <a class="page-link" href="{{ site.baseurl }}/assets/cv_jl.pdf" target="_blank">cv</a>
 
       </div>
     </nav>

@@ -1,6 +1,6 @@
 ---
 layout: nosidebar
-title: Research
+title: research
 permalink: /research/
 ---
 
