@@ -8,7 +8,7 @@ permalink: /research/
 <hr/>
 <details title="jklm">
 <summary><a title="jklm.pdf" href="{{ site.baseurl }}/assets/jklm.pdf">Factor Market Failures and the Adoption of Irrigation in Rwanda</a> (w/ <a title="Maria Jones" href="https://www.worldbank.org/en/about/people/m/maria-ruth-jones">Maria Jones</a>, <a title="Florence Kondylis" href="https://sites.google.com/site/decrgkondylis/">Florence Kondylis</a>, and <a title="Jeremy Magruder" href="https://are.berkeley.edu/~jmagruder/">Jeremy Magruder</a>)<br/>
-(2019 Sep) <ar>show abstract</ar>&nbsp;<a title="jklm.pdf" href="{{ site.baseurl }}/assets/jklm.pdf">pdf</a><hr/></summary>
+(2019 Oct) <ar>show abstract</ar>&nbsp;<a title="jklm.pdf" href="{{ site.baseurl }}/assets/jklm.pdf">pdf</a><hr/></summary>
 <br/>We examine constraints to adoption of new technologies in the context of hillside irrigation schemes in Rwanda. We leverage a plot-level spatial regression discontinuity design to produce 3 key results. First, irrigation enables dry season horticultural production, which boosts on farm cash profits by 70%. Second, adoption is constrained: access to irrigation causes farmers to substitute labor and inputs away from their other plots. Eliminating this substitution would increase adoption by at least 21%. Third, this substitution is largest for smaller households and wealthier households. This result can only be explained by labor market failures in a standard agricultural household model.
 </details>
 <hr style="visibility:hidden;height:12pt" />
