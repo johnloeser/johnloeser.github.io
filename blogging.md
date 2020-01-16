@@ -19,5 +19,3 @@ permalink: /blogging/
 [Randomly Drawn Equators?](https://blogs.worldbank.org/impactevaluations/randomly-drawn-equators) Randomization inference and spatially correlated errors (w/ <a title="Florence Kondylis" href="https://sites.google.com/site/decrgkondylis/">Florence Kondylis</a>) (2019 May)
 
 [Spatial Jumps](https://blogs.worldbank.org/impactevaluations/spatial-jumps) Spatial regression discontinuity (w/ <a title="Florence Kondylis" href="https://sites.google.com/site/decrgkondylis/">Florence Kondylis</a>) (2019 Mar)
-
-[
