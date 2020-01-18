@@ -1,8 +1,8 @@
 # Site settings
 title: john loeser
-email: john.a.loeser@berkeley.edu
+email: jloeser@worldbank.org
 # description: Blog, research, and teaching.
-description: John Loeser's economic job market website
+description: john loeser
 # permalink: :categories/:title.html
 permalink: blog/:categories/:title.html
 # baseurl: "/blog" # the subpath of your site, e.g. /blog/
