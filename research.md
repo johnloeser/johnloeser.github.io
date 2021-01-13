@@ -6,6 +6,13 @@ permalink: /research/
 
 ## Working papers
 <hr/>
+<details title="bkkll">
+<summary><a title="bkkll.pdf" href="{{ site.baseurl }}/assets/bkkll.pdf">Sectoral heterogeneity in the COVID-19 recovery: Evidence from Rwanda</a> (w/ Kieran Byrne, Saahil Karpe, <a title="Florence Kondylis" href="https://sites.google.com/site/decrgkondylis/">Florence Kondylis</a>, and <a title="Megan Lang" href="https://www.meganlangecon.com/">Megan Lang</a>)<br/>
+(2021 Jan) <ar>show abstract</ar>&nbsp;<a title="bkkll.pdf" href="{{ site.baseurl }}/assets/bkkll.pdf">working paper</a><hr/></summary>
+<br/>Following the initial COVID-19 shock, developing countries have begun to transition to a COVID-19 economic recovery characterized by eased lockdowns and fiscal stimulus. We leverage high frequency administrative tax records from Rwanda on firm sales and employment to characterize the impacts of the COVID-19 shock and recovery. We show that the aggregate shock peaked in April 2020, with aggregate turnover and employment recovering to pre-COVID-19 levels by September. The aggregate recovery masks meaningful heterogeneity: while the initial shock impacted sectors in which in-person work was most necessary, the sectors in which face-to-face interactions with consumers are most necessary continue to experience a protracted recovery.
+</details>
+<hr style="visibility:hidden;height:12pt" />
+<hr/>
 <details title="jklm">
 <!--<summary><a title="jklm.pdf" href="{{ site.baseurl }}/assets/jklm.pdf">Factor Market Failures and the Adoption of Irrigation in Rwanda</a> (w/ <a title="Maria Jones" href="https://www.worldbank.org/en/about/people/m/maria-ruth-jones">Maria Jones</a>, <a title="Florence Kondylis" href="https://sites.google.com/site/decrgkondylis/">Florence Kondylis</a>, and <a title="Jeremy Magruder" href="https://are.berkeley.edu/~jmagruder/">Jeremy Magruder</a>)<br/>
 (2019 Dec) <ar>show abstract</ar>&nbsp;<a title="jklm.pdf" href="{{ site.baseurl }}/assets/jklm.pdf">pdf</a><hr/></summary>-->
