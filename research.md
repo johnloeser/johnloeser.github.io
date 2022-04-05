@@ -7,6 +7,14 @@ permalink: /research/
 ## Working papers
 
 <hr/>
+<details title="bklm">
+<summary><a title="bklm.pdf" href="{{ site.baseurl }}/assets/bklm.pdf">A few good masks: Evidence from mask manufacturing in Rwanda during the COVID-19 pandemic</a> (w/ Kieran Byrne, <a title="Florence Kondylis" href="https://sites.google.com/site/decrgkondylis/">Florence Kondylis</a>, and Denis Mukama)<br/>
+(2022 Apr) <ar>show abstract</ar>&nbsp;<a title="bklm.pdf" href="{{ site.baseurl }}/assets/bklm.pdf">pdf</a>&nbsp;<a title="working paper (WPS)" href="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099716204042210015">working paper (WPS)</a><hr/></summary>
+<br/>Did increases in mask supply slow the spread of COVID-19? Rwanda licensed and incentivized textile manufacturers to produce high-quality masks at the start of the COVID-19 pandemic; we exploit spatial variation in exposure to mask manufacturing through textile trade networks within an event-study design using receipt-level tax data. Licensing domestic mask manufacturers conservatively reduced mask prices by 8.8% and reduced monthly growth in COVID-19 infections (proxied by demand for anti-fever medicine) by 12%. The dynamics of our results suggest that increased mask quality explains reduced infections, in a context where there was strict enforcement of mask mandates and informal markets for masks.
+</details>
+<hr style="visibility:hidden;height:12pt" />
+
+<hr/>
 <details title="jklm">
 <summary><a title="jklm.pdf" href="{{ site.baseurl }}/assets/jklm.pdf">Factor market failures and the adoption of irrigation in Rwanda</a> (w/ <a title="Maria Jones" href="https://www.worldbank.org/en/about/people/m/maria-ruth-jones">Maria Jones</a>, <a title="Florence Kondylis" href="https://sites.google.com/site/decrgkondylis/">Florence Kondylis</a>, and <a title="Jeremy Magruder" href="https://are.berkeley.edu/~jmagruder/">Jeremy Magruder</a>) <em>accepted at the American Economic Review</em><br/>
 (2022 Jan) <ar>show abstract</ar>&nbsp;<a title="jklm.pdf" href="{{ site.baseurl }}/assets/jklm.pdf">pdf</a>&nbsp;<a title="online appendix" href="{{ site.baseurl }}/assets/jklm_onlineappendix.pdf">online appendix</a><hr/></summary>
